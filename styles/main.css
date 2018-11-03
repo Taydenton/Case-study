@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Chivo;
+}
+
+.light-green {
+  color: #048A81;
+  opacity: .6;
+}
+
+.intro {
+  color: #048A81;
+}
+
+.intro {
+  padding-top: 50px;
+}
+
+body h1 {
+  font-family: Chivo;
+  font-size: 3.8rem;
+}
+
+body h2 {
+  font-family: Chivo;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+body h3 {
+  font-family: Chivo;
+  font-size: 2rem;
+}
+
+body p {
+  font-family: overpass;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+body nav {
+  color: #AE60C2;
+  font-family: Chivo;
+  font-size: 1.6rem;
+  s
+}
+
+.navbar a:link {
+  color: #AE60C2;
+}
+
+.featured {
+  background-color: #AE60C2;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+body footer {
+  font-family: Chivo;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #048A81
+}
+
+.connect-links a:link {
+  color: #AE60C2;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #048A81;
+}
+
+.button {
+  display: inline-block;
+  width: 30%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-family: Chivo;
+  font-size: 1.8rem;
+}
+
+.button-2 {
+  display: inline-block;
+  width: 30%;
+  padding: 8px;
+  color: #AE60C2;
+  border: 1px solid #AE60C2;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-family: Chivo;
+  font-size: 1.8rem;
+}
+
+.list {
+  font-family: Overpass;
+  font-size: 1.6rem
+}
+
+.project-slogan {
+  font-family: chivo;
+  font-style: bold;
+}
+
+.project-title {
+  color: #048A81;
+}
+
+.master-container {
+  display: grid;
+  /* grid-template-columns: 200px, 200px; */
+  grid-template-areas:
+  "hero introduction" "research other-guys" "people architecture" "testing user-flows" "learning design";
+}
+
+.hero {
+  background-color: #008695;
+  width: 100%;
+  padding-top: 50px;
+  grid-area: hero;
+}
+
+.hero .hero-content {
+  color: white;
+  font-family: chivo;
+  width: 100%;
+}
+
+.introduction {
+  background-color: green;
+  width: 100%;
+  padding-top: 50px;
+  grid-area: introduction;
+}
+
+.research {
+  background-color: yellow;
+  width: 100%;
+  padding-top: 50px;
+  grid-area: research;
+}
+
+.other-guys {
+  background-color: pink;
+  width: 100%;
+  padding-top: 50px;
+  grid-area: other-guys
+}
+
+.people {
+  background-color: rgba(4, 138, 129, .21);
+  width: 100%;
+  padding-top: 50px;
+  grid-area: people;
+}
+
+.architecture {
+  background-color: rgba(175, 101, 194, .5);
+  width: 100%;
+  padding-top: 50px;
+  grid-area: architecture;
+}
+
+.testing {
+  background-color: rgba(4, 138, 129, .21);
+  width: 100%;
+  padding-top: 50px;
+  grid-area: testing;
+}
+
+.user-flows {
+  padding-top: 50px;
+  background-color: red;
+  grid-area: user-flows;
+}
+
+.design {
+  padding-top: 50px;
+  background-color: purple;
+  grid-area: design;
+}
+
+.learning {
+  padding-top: 50px;
+  background-color: green;
+  grid-area: learning;
+}
+
+/* @media screen and (min width: 110em) {
+margin: 0 auto;
+} */
+
+/* @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px) */
